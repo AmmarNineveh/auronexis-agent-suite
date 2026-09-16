@@ -1,0 +1,30 @@
+ # Node
+ node_modules/
+ npm-debug.log*
+ yarn-debug.log*
+ yarn-error.log*
+ .pnpm-debug.log*
+ .env
+ .env.local
+ *.db
+ *.db-journal
+ 
+ # Flutter / Dart
+ **/build/
+ **/.dart_tool/
+ **/.flutter-plugins
+ **/.flutter-plugins-dependencies
+ **/.packages
+ **/.pub-cache/
+ **/.pub/
+ **/android/.gradle/
+ **/android/local.properties
+ **/ios/.generated/
+ **/coverage/
+ 
+ # OS & Misc
+ .DS_Store
+ Thumbs.db
+ *.lock
+ screenshot.png
+ app/
